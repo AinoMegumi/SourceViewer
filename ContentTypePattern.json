@@ -1,0 +1,8 @@
+{
+    "ContentTypes": [
+        { "extension": "cs", "ContentType": "cs" },
+        { "extension": "resx", "ContentType": "xml" },
+        { "extension": "config", "ContentType": "xml" },
+        { "extension": "csproj", "ContentType": "xml" }
+    ]
+}

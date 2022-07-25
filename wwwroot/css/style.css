@@ -1,0 +1,23 @@
+table {
+    max-width: 100%;
+}
+
+table,
+th,
+td {
+    padding: 10px;
+    min-width: 60px;
+    border: 2px solid #dddddd;
+}
+
+table,
+tbody,
+td {
+    padding: 10px;
+    min-width: 60px;
+    border: 2px solid #dddddd;
+}
+
+.tabcontent select {
+    min-width: 40px;
+}

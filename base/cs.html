@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>sourceview</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+            integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shCore.min.css"
+            integrity="sha512-q9B+BRcW0p2dRy94K1it1sy2Dv9UkAqIYoAUcWQY7Pis6fcQSAe5lohmJiymUL5glkr+Gu8fEVW6UjNKz6qm3A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/styles/shThemeEclipse.min.css"
+            integrity="sha512-6CCQXim9WcRaWD9mGmchu6MVeR2hDl9loMnjzOP0ooiUuQQwa6u8FQL4v3socSg61fctsCqEiYIqXyHU/7A7ew=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"
+            integrity="sha512-Z5dAQyvO8EyY1cHQcqYTYL8z6PDjM0URql6AioNodsSxxTJS5Fqfujr+o/4ye2dLp0he1qAVTiZABTunv6oLow=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushCSharp.min.js"
+            integrity="sha512-eJbYLIH67AKyh0trdBb0zShEdr7/tipf0c3cNfNIN5Y0gYBvelbamVypKggtiiVM1l2joC+AogOJXwKckX2sgA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="text/javascript">
+            SyntaxHighlighter.config.clipboardSwf =
+                'https://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/clipboard.swf';
+            SyntaxHighlighter.all();
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
+            >
+                <div class="container">
+                    <h1>Source Viewer</h1>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="./">トップに戻る</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <pre class="brush:csharp; toolbar: false">{FileContent}</pre>
+            </div>
+        </main>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                <p>Copyright &copy; 2022 Meigetsu/Meigetsu Net. All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>

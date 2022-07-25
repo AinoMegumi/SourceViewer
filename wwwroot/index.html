@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>sourceview</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"
+            integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/mithril/2.2.2/mithril.min.js"
+            integrity="sha512-qIA6ibC9Osiu0HuPW2ZeWnff8ejlI+sR+zDSO1kdnHF2SpVJEToKnhujkpp1NYApblG+Ujb73qlQrSvsaJYlAA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--<script
+            src="https://cdnjs.cloudflare.com/ajax/libs/mithril/2.2.2/mithril.js"
+            integrity="sha512-v5hccHnDi+eudK0JpwGo9NuL7cG7KjLadljo72GMVfDD81vFh6exOrIucqiDhlAjbSFDkigaEazJuFuT8AyvgA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>-->
+        <script defer type="text/javascript" src="./js/fileselector.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav
+                class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3"
+            >
+                <div class="container">
+                    <h1>Source Viewer</h1>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container" id="fileview"></div>
+        </main>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                <p>Copyright &copy; 2022 Meigetsu/Meigetsu Net. All rights reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>

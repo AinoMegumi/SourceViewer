@@ -1,0 +1,23 @@
+{
+  "name": "tbsrcview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "eslint": "eslint --cache --ext .js .",
+    "eslint:fix": "eslint --cache --ext .js . --fix",
+    "start": "node ./server.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.7.1"
+  }
+}
